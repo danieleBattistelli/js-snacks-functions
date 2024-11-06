@@ -1,21 +1,17 @@
 /* Scrivi una funzione che accetti un array di nomi e restituisca nuovo un array con le iniziali 
 di ogni parola dell'array fornito */
 
-const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
-
-//Risultato atteso: ["A", "L", "M", "A", "G", "A"]
 
 
-console.log(InitialOfName(names))
-
+// Dichiara la funzione qui.
 
 /**
  * Funzione che accetta un array di nomi in ingresso 
  * e restituisca nuovo un array con le iniziali di ogni parola dell'array fornito 
  * 
  *
- * @param {Array string} names
- * @returns {Array string} initialArray
+ * @param {string} names
+ * @returns {string} initialArray
  */
 function InitialOfName(names){
      let initialArray = [];
@@ -35,6 +31,13 @@ function InitialOfName(names){
 let initials =[]
 const getInitials = initials => initials.map(name => name[0]);
 
+// Invoca la funzione qui e stampa il risultato in console
+
+
+const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
+console.log(InitialOfName(names))
 console.log(getInitials(names)) //=> deve essere usata dopo la definizione!!!
+
+//Risultato atteso: ["A", "L", "M", "A", "G", "A"]
 
 
