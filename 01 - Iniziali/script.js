@@ -29,7 +29,7 @@ function InitialOfName(names){
  * @returns {Array string} initialArray
  */
 let initials =[]
-const getInitials = initials => initials.map(name => name[0]);
+const getInitials = (initials) => initials.map(name => name[0]);
 
 // Invoca la funzione qui e stampa il risultato in console
 

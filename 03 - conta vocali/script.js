@@ -23,7 +23,7 @@ return `${word}: ${count} (${elencoVocali.join(', ')})`;
 }
 
 
-const contaVocali2 = word => { 
+const contaVocali2 = (word) => { 
     const vocali = ['a', 'e', 'i', 'o', 'u']; 
     const vocaliTrovate = word.split('').filter(char => vocali.includes(char)).map(char => char.toLowerCase()); 
     const count = vocaliTrovate.length; 
